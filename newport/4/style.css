@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('wallpaper.jpg');
+	overflow: hidden;
+	height: 100vh;
+	z-index: 110;
+}
+
+.start{
+	position: absolute;
+	bottom: 0;
+	z-index: 200;
+}
+
+.start img{
+	max-width: 80%;
+}
+
+.taskbar{
+	background-color: aliceblue;
+	position: absolute;
+	bottom: 0;
+	z-index: 50;
+}
+
+.taskbar img{
+	max-width: 100%;
+}
+
+.chrome{
+	position: absolute;
+	left: 28.7%;
+	bottom: 2px;
+}
+
+.chrome img{
+	max-width: 5%;
+}
+
+
+.file{
+	position: absolute;
+	left: 32.5%;
+	bottom: 3.5px;
+}
+
+.file img{
+	max-width: 12.5%;
+}
+
+.recyclebin{
+	position: absolute;
+	left: 42.09%;
+	bottom: 0;
+}
+
+.recyclebin img{
+	max-width: 4.3%;
+}
+
+.taskmenu{
+	position: absolute;
+	bottom: -655px;
+	left: 9px;
+	transition: all 0.5s ease-in-out;
+}
+
+.taskmenu img{
+	max-width: 75%;
+	border-radius: 7px;
+}
